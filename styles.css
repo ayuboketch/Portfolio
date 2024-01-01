@@ -1,0 +1,76 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(65deg, #3a3d40 0%, #181719 100%);
+  border-color: red;
+}
+
+.about, .work, .contact {
+  font-family: Sans-Serif;
+  margin:1%;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a.hover {
+  text-decoration: underline;
+}
+
+.portfolioo {
+  margin-top: 25%;
+}
+
+
+.navbar {
+  width: 100%;
+  height: 3vh;
+  background: red;
+  top: 0;
+  text-align: right;
+  color: white;
+  position: fixed;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 25%;
+  color: white;
+  height: 10vh;
+}
+
+.welcome h1 {
+  font-family: 'Raleway', sans-serif;
+ 
+}
+
+.welcome p {
+  font-family: 'Raleway', sans-serif;
+  color: red;
+  font-style: italic;
+ 
+}
+
+.portfolio {
+  width: 25%;
+  height: 25vh;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  display: grid;
+  background: linear-gradient(65deg, #181719 0%, #3a3d40 100%);
+ 
+ 
+ 
+}
+
+h1 {
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
